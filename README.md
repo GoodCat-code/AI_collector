@@ -1,9 +1,8 @@
-Technical Assignment
-: При спавне персонажа игрока рядом с ним также спавнится маленький робот (передвигается по земле, можно заменить обычным манекеном), обладающий следующими функциями:
+Technical Assignment: When the player character spawns, a small robot (which can be replaced with a regular mannequin) also spawns nearby. The robot has the following functions:
 
-1. В обычном состоянии робот следует за персонажем игрока. Робот и игрок не сталкиваются друг с другом (могут проходить насквозь друг друга).
-2. Если робот не может достать до персонажа игрока (например, игрок запрыгнул на большой валун), то робот через несколько секунд телепортируется к персонажу игрока.
-3. На карте расположено несколько бананов. Игрок имеет возможность указать роботу на банан (если игрок видит банан). После этого робот направится прямиком за этим бананом. Как только робот доберется до банана, то он прицепляет этот банан к себе и возвращается к персонажу игрока. По возвращении робот отцепляет банан от себя и снова начинает следовать за персонажем игрока.
-4. Если, во время того, как робот идет за бананом, игрок укажет на другой банан, то робот переключится на него, забыв про первый. Если, во время того, как робот несет банан к персонажу игрока, игрок укажет на другой банан, то робот отцепит имеющийся и направится за новым.
+In its default state, the robot follows the player character. The robot and player do not collide and can pass through each other.
+If the robot is unable to reach the player (e.g., the player jumps onto a large rock), the robot teleports to the player after a few seconds.
+Several bananas are scattered across the map. The player can point to a banana (if the player can see it), and the robot will head directly toward it. Once the robot reaches the banana, it attaches it to itself and returns to the player. Upon returning, the robot drops the banana and resumes following the player.
+If, while the robot is heading toward a banana, the player points to another banana, the robot switches targets, abandoning the first one. Similarly, if the robot is carrying a banana back to the player and the player points to another banana, the robot drops the current one and heads for the new target.
 
-демонстрационное видео Demo_video
+Demo video: Demo_video
